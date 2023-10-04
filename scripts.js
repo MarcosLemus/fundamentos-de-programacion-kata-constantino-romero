@@ -59,12 +59,12 @@ function imprimeTodasLasRespuestas(pregunta) {
 
 function imprimeUnaRespuesta(respuesta) {
   // Put your code here
-  let answer = '';
+  let imprimeRespuesta = '';
 
-  answer += imprimeLabel(respuesta);
-  answer += imprimeInput(respuesta);
+  imprimeRespuesta += imprimeLabel(respuesta);
+  imprimeRespuesta += imprimeInput(respuesta);
 
-  return answer;
+  return imprimeRespuesta;
 }
 
 
@@ -73,8 +73,8 @@ function imprimeLabel(respuesta) {
   // Put your code here
   let newLabel = "";
   const respuesta = pregunta.respuestas[0, 1, 2, 3, 4].label;
-  for (let i = 0; i <= 5; i++){
-    newLabel[i];
+  for (let i = 0; i < newLabel; i++){
+      newLabel[i];
   }
   
   return respuesta;
@@ -86,8 +86,8 @@ function imprimeInput(respuesta) {
   // Put your code here
   let newInput = "";
   const input = pregunta.respuestas[0, 1, 2, 3, 4].id;
-  for (let i = 0; i <= 5; i++){
-    input[i];
+  for (let i = 0; i < newInput; i++){
+    newInput[i];
   }
 
   return newInput;
